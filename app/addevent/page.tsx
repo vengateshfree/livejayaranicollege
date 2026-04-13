@@ -1,4 +1,4 @@
-import AddEvent from "@/pages/dasboard/AddEvent";
+import AddEvent from "../pathcomponent/dasboard/AddEvent";
 
 export default function AddEventPage() {
   return <AddEvent />;

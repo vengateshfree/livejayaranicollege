@@ -15,7 +15,7 @@ import {
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 
-export default function EventAdmin() {
+export default function GetEvent() {
   const [events, setEvents] = useState<any[]>([]);
   const [openModal, setOpenModal] = useState<"add" | "edit" | "view" | null>(null);
   const [selectedEvent, setSelectedEvent] = useState<any>(null);

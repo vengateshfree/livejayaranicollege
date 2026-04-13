@@ -1,11 +1,12 @@
 "use client";
 
-  import Layout from "@/components/Layout";
-  import HeroCarousel from "@/components/HeroCarousel";
+  // import Layout from "@/components/Layout";
+  // import HeroCarousel from "@/components/HeroCarousel";
   import Link from "next/link";
   import { BookOpen, Users, Award, Briefcase, Lightbulb, Heart, GraduationCap, TrendingUp } from "lucide-react";
   import LatestNews from "./home/LatestNews";
   import EventsSection from "./home/EventsSection";
+import HeroCarousel from "../components/HeroCarousel";
 
   const courses = [
     {
@@ -54,7 +55,7 @@
   ];
 
   const features = [
-    {
+    { 
       title: "Life at JCS",
       desc: "At Jayarani College, life is more than just lectures and labs...",
       image: "https://images.pexels.com/photos/5211457/pexels-photo-5211457.jpeg",
@@ -72,7 +73,7 @@
   ];
 
   const Index = () => (
-    <Layout>
+      <>
       <HeroCarousel />
 
 
@@ -245,7 +246,7 @@
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 
   export default Index;

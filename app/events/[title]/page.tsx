@@ -29,14 +29,11 @@ export default function EventDetailsPage({
 
   if (!event) {
     return (
-      <Layout>
         <p className="text-center mt-10">Loading...</p>
-      </Layout>
     );
   }
 
   return (
-    // <Layout>
       <>
       <div className="max-w-7xl mx-auto px-6 mb-16">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
@@ -61,6 +58,5 @@ export default function EventDetailsPage({
         />
       </div>
       </>
-    {/* </Layout> */}
   );
 }
